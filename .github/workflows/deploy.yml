@@ -20,7 +20,7 @@ jobs:
     - name: Install Dependencies
       run: |
         cd app
-        npm ci
+        npm ci --legacy-peer-deps
 
     - name: Build
       run: |
